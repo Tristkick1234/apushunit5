@@ -1,0 +1,83 @@
+:root{
+    font-size: 16px;
+    font-family:Verdana, Tahoma, sans-serif;
+    color:white;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    
+   
+}
+
+body{
+    background-image: url("cwarpic.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    justify-content: space-between;
+    width:100%;
+    
+    
+}
+
+header{
+    padding:1rem;
+    font-size: 1.25rem;
+    background-color: rgba(7, 7, 7, 0.315);
+    width:100%;
+   
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+    text-decoration: none;
+    list-style-type:none ;
+    width:100%;
+    
+
+}
+
+li{
+    
+    padding:.5rem;
+    border-radius: 5px;
+    background-color: rgba(7, 7, 7, 0.315);
+
+}
+
+
+main{
+    height: 50vh;
+}
+.container{
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    top:50%;
+   
+}
+.container>h1{
+    background-color: rgba(7, 7, 7, 0.527);
+    padding:1rem;
+    border-radius: 3px;
+}
+
+footer{
+    width:100%;
+    padding:.3rem;
+    background-color: rgba(7, 7, 7, 0.315);
+    bottom:0;
+}
+
+iframe{
+    opacity: 0;
+    position:absolute;
+}
